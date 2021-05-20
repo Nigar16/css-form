@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url("../img/world.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+#total {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 440px;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 5px;
+}
+
+#container{
+    max-width: 350px;
+    margin: auto;
+}
+
+
+/* containerin daxili */
+
+#container h1 {
+    font: normal 800 24px 'Lato', sans-serif;
+    line-height: 28px;
+    color: #4f4f4f;
+    padding:40px 0 30px 0;
+}
+
+#container input[type=password],input[type=email] {
+    width: 100%;
+    background-color: rgba(255,255,255,0.7019607843137254);
+    height: 50px;
+    border-radius: 3px;
+    border: 1px solid #d8d8d8;
+    padding-left: 20px;
+}
+#container input[type=email] {
+    margin-bottom:30px ;
+}
+
+#container input[type=password] {
+    padding-top:30px ;
+    position: relative;
+}
+#show{
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -40%);
+    position: absolute;
+    width: 61px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #f6f1bd;
+    border: none;
+    color: #676121;
+    font: bold 12px 'Lato', sans-serif;
+}
+#container input[type=checkbox] {
+    transform:scale(1.5) ;
+}
+
+ #container input[type=email]::placeholder{
+    font: normal 300 18px 'Lato', sans-serif;
+    color: #555555;
+ }
+ #container input[type=password]::placeholder{
+    font: normal 300 36px 'Raleway', sans-serif;
+    color: #555555;
+ }
+#container label[ for="email"],label[ for="password"]{
+    font: normal 800 14px 'Lato', sans-serif;
+    letter-spacing: 1.5px;
+    line-height: 28px;
+    color: #4f4f4f;
+}
+#container label[ for="remember"]{
+    font: normal 800 14px 'Lato', sans-serif;
+    line-height: 28px;
+    color: #8b8b8b;
+    padding-left:10px;
+}
+
+#container a {
+    font: bold 14px 'Lato', sans-serif;
+    line-height: 28px;
+    color: #04a9f4;
+    text-decoration: none;
+    padding-left: 185px;
+}
+
+#sign {
+    width: 100%;
+    height: 55px;
+    border-radius: 4px;
+    border: none;
+    filter: drop-shadow(0px 3px 0px #0075aa);
+    background-color: #0896d7;
+    font:  bold 20px 'Lato', sans-serif;
+    line-height: 28px;
+    color: #ffffff;
+    text-align: center;
+    filter: drop-shadow(0px -1px 0px rgba(0,0,0,0.2));
+    margin: 25px 0;
+}
+
+#container .social {
+    margin:25px 0 35px 0 ;
+    width: 170px;
+    height: 36px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font:  bold 14px 'Lato', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+#fb{
+    background-color: #3162a2;
+    margin-right: 5px !important;
+}
+
+#tw{
+    background-color: #00aaf4;
+}
